@@ -1,6 +1,7 @@
-public class ClassObject{
+public class ClassObject {
     int id_no;
     String name;
+
     public void setID_no(int my_id) {
         id_no = my_id;
     }
@@ -24,6 +25,7 @@ public class ClassObject{
 
         st2.setID_no(2);
         st2.setName("John");
+
         st3.setID_no(3);
         st3.setName("Alice");
 
@@ -33,6 +35,5 @@ public class ClassObject{
         st1.displayData();
         st2.displayData();
         st3.displayData();
-    
-    }
+    }
 }
