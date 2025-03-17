@@ -21,6 +21,6 @@ public class StringBufferVsStringBuilderTest {
         endTime = System.nanoTime();
         System.out.println("Time taken with StringBuilder: " + (endTime - startTime) + " ns");
         long l = (endTime - startTime);
-        System.out.println(k/l);
+        System.out.println(k/l +" time faster");
     }
 }
